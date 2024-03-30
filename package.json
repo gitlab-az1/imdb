@@ -1,5 +1,5 @@
 {
-  "name": "inmemory-db",
+  "name": "mars-imdb",
   "version": "1.0.0",
   "main": "dist/index.js",
   "repository": "https://github.com/gitlab-az1/imdb.git",
