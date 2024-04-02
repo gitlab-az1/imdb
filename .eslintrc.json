@@ -27,7 +27,7 @@
         "classes": "always"
       }
     ],
-    "no-magic-numbers": "warn",
+    // "no-magic-numbers": "warn",
     "complexity": [
       "warn",
       13

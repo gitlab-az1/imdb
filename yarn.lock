@@ -2012,6 +2012,11 @@ cross-spawn@^7.0.2, cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
+crypto-js@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-4.2.0.tgz#4d931639ecdfd12ff80e8186dba6af2c2e856631"
+  integrity sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==
+
 data-view-buffer@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/data-view-buffer/-/data-view-buffer-1.0.1.tgz#8ea6326efec17a2e42620696e671d7d5a8bc66b2"
@@ -3549,6 +3554,11 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
+next-math@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/next-math/-/next-math-1.0.1.tgz#5c3dbc9692841d66d036214c1a7e6f1f82d0fcd7"
+  integrity sha512-mGGmhvGaHOjXXwO3Rfgzw2TfeBirI6CXjQCZZQamwKLzd7eenEvdDqiZhgot9xPvJwYfwlpntNz65AFLZvw/UA==
+
 node-environment-flags@^1.0.5:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/node-environment-flags/-/node-environment-flags-1.0.6.tgz#a30ac13621f6f7d674260a54dede048c3982c088"
@@ -3571,6 +3581,14 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
+
+not-synchronous@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/not-synchronous/-/not-synchronous-1.1.0.tgz#1afb5c9945f5ebccc14e89a2aed6b62909ab31ff"
+  integrity sha512-mu/SrnaSTcIG5YTSr9JCfd8j0ZYfbg7tZJ9ZwWBy3/oqLWYarDA7Y0AgTxlgcxKkm6/Hrf/lWcVWpPcFSRKkug==
+  dependencies:
+    crypto-js "^4.2.0"
+    next-math "^1.0.1"
 
 npm-run-path@^4.0.1:
   version "4.0.1"
@@ -4272,6 +4290,11 @@ typed-array-length@^1.0.6:
     has-proto "^1.0.3"
     is-typed-array "^1.1.13"
     possible-typed-array-names "^1.0.0"
+
+typed-config-parser@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/typed-config-parser/-/typed-config-parser-1.1.0.tgz#0ef3fdbc9c97e08b8f8bee6b554b6543a4635335"
+  integrity sha512-iE73lz4X7A/+xm80um2MW+k6T/1RHPI20WPVHZZ2VMAsShXV5qggwOJBR0OPdUBuVahwReu2dUSEuNKVnTFLkQ==
 
 typescript@^5.4.2:
   version "5.4.3"
